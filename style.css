@@ -1,0 +1,100 @@
+
+    .center {
+        margin-top: 10%;
+        display: block;
+        left: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    body {
+        background-color: #121212;
+        font-family: 'Nunito', sans-serif;
+        padding: 50px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inner-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* wip */
+    .card-test{
+        margin: 5%;
+        width: 200px;
+        height: 50px;
+        background: #F1F101;
+    }
+
+    /* .child {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        } */
+        
+    .card{
+        width: 40vw;
+        height: auto;
+        /* min-height: 30vw; */
+        border-radius: 16px;
+        background: #212121;
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+            transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        padding: 14px 80px 18px 80px;
+        cursor: pointer;
+    }
+    
+    .card:hover{
+            transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+    
+    .card h3{
+        color: aliceblue;
+        text-align: center;
+        font-weight: 800;
+        font-size: large;
+    }
+    
+    .card img{
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        max-height: 120px;
+    }
+
+    .card-title{
+        order: 1;
+        aspect-ratio: 4/3;
+        min-height: 15vw;
+        max-width: 450px;
+        padding: 20px;
+        /* margin: 5%;
+        width: 40vw;
+        height: 30vw; */
+        background-color: #121212;
+        background-image: url(img/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90%;
+      }
+    .card-contact{
+        order: 2;
+        margin-top: 5%;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        /* width: auto;
+        height: auto; */
+    }              

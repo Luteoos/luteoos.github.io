@@ -10,45 +10,30 @@
         <title>Luteoos.github.io</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,900">
     </head>
     <body>
         <div class="container">
-            <div class="child">
-                <a href="https://github.com/luteoos">
-                    <img src="img/logo.png"
-                        width="250px"/>
-                </a>
-            </div>
+            <div class="child">  
+                    <a href="https://github.com/luteoos">
+                        <div class="card card-title" onclick="location.href=`https://github.com/luteoos`">
+                        </div>
+                        <!-- <img src="img/logo.png"
+                            width="250px"/> -->
+                    </a>
+                </div>
+                <div class="child" hidden>
+                    <div class="card card-contact">
+                        <h3>Contact</h3>
+                        <div class="inner-container">
+                            <div class="card-test" width="50px" height="50px"></div>
+                            <div class="card-test" width="50px" height="50px"></div>
+                            <div class="card-test" width="50px" height="50px"></div>
+                            <div class="card-test" width="50px" height="50px"></div>
+                        </div>
+                    </div>
+                </div>
         </div>
         <script src="" async defer></script>
     </body>
 </html>
-
-<style>
-    .center {
-        margin-top: 10%;
-        display: block;
-        left: auto;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-    }
-
-    body {
-        background-color: #121212;
-    }
-    
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .child {
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        }
-</style>
