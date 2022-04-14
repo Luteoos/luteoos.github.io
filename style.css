@@ -28,14 +28,6 @@
         justify-content: center;
         align-items: center;
     }
-    
-    /* wip */
-    .card-test{
-        margin: 5%;
-        width: 200px;
-        height: 50px;
-        background: #F1F101;
-    }
 
     /* .child {
         position: absolute;
@@ -92,9 +84,30 @@
       }
     .card-contact{
         order: 2;
+        width: auto;
         margin-top: 5%;
         /* margin-left: 10%;
         margin-right: 10%; */
         /* width: auto;
         height: auto; */
     }              
+
+    ion-icon {
+        font-size: 64px;
+        color: whitesmoke;
+    }
+
+     .card-social{
+        margin: 8px;
+        padding: 16px;
+        border-radius: 50%;
+        width: auto;
+        height: auto;
+        background: #212121;
+        -webkit-transition: .3s; /* For Safari 3.0 to 6.0 */
+        transition: .3s;
+    }
+
+    .card-social:hover{
+        background-color: #8883D2;
+    }
